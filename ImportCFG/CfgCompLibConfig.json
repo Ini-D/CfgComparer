@@ -1,0 +1,24 @@
+{
+  "Settings": {
+    "CompilerOptimization": "-O1",
+    "CompilerDir": "",                                //provide path if GCC-compiler is not in windows env params
+    "OutputDir": "",                                  //default: outputs folder in exec path
+    "XSDPath": ".\\validation\\FlowChart_Drawio.xsd"  //default: validation folder in lib
+    //"XSDPath": ".\\validation\\FlowChart_Own.xsd"
+  },
+
+  "GraphEditCosts": {
+    "NodeInsert":  2.0,
+    "NodeDelete":  1.0,
+    "NodeRelabel": 1.0,
+    "EdgeInsert":  1.0,
+    "EdgeDelete":  1.0
+  },
+
+  "LabelComparison": {
+    "QualtoQuantWeight":    0.5, 
+    "LiteralWeight":        0.5, 
+    "EqualityThreshold":    0.8  
+  }
+}
+

@@ -1,0 +1,27 @@
+<graph>
+	<vertex id="0" 	value="Start" 		vertex="1"/>
+	<vertex id="1" 	value="End" 		vertex="1"/>
+	<vertex id="2" 	value="y!=0" 		vertex="1"/>
+	<vertex id="5" 	value="x!=y" 		vertex="1"/>
+	<vertex id="8" 	value="return x" 	vertex="1"/>
+	<vertex id="12" value="x&amp;gt;y" 	vertex="1"/>
+	<vertex id="14" value="x=x-y" 	 	vertex="1"/>
+	<vertex id="16" value="y=y-x" 	 	vertex="1"/>
+	<edge 	id="4" 	edge="1"	  source="0"  target="2"/>
+	<edge 	id="7" 	edge="1"	  source="2"  target="5" />
+	<edge 	id="9" 	edge="1"	  source="2"  target="8" />
+	<edge 	id="13" edge="1"	  source="5"  target="12" />
+	<!-- <edge 	id="20" edge="1" 	  source="5"  target="8"/> -->
+	<edge 	id="11" edge="1"	  source="8"  target="1" />
+	<edge 	id="15" edge="1"	  source="12" target="14" />
+	<edge 	id="17" edge="1"	  source="12" target="16" />
+	<edge 	id="19" edge="1"	  source="14" target="5" />
+	<edge 	id="18" edge="1"	  source="16" target="5" />
+</graph>
+
+
+
+
+
+
+

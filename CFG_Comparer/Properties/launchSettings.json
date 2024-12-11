@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CFG_ggt_FC_Own": {
+      "commandName": "Project",
+      "commandLineArgs": "ggt.c\r\nFlowChart_Own.xml\r\n-p"
+    },
+    "CFG_ggt_FC_Drawio": {
+      "commandName": "Project",
+      "commandLineArgs": "ggt.c\r\nFlowChart_Drawio.xml\r\n-p"
+    }
+  }
+}
